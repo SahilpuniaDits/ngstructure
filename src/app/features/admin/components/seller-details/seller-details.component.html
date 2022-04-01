@@ -1,0 +1,10 @@
+<h1>child components   seller - details</h1>
+<h3>name :{{hero.name}}, age:{{hero.age}}</h3>
+<h2>{{dummy}}</h2>
+<br><br>
+<input type="text" name="input value" #val id="#val">
+<button (click)="submitValue(val)">click</button>
+<p *ngIf="exist">Input value: <strong>{{value}}</strong></p>
+<button (click)="destroy" class="btn btn-danger">exsit-data</button>
+<!-- <ngContent>{{value}}</ngContent> -->
+<router-outlet></router-outlet>
